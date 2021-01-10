@@ -1,0 +1,9 @@
+*.png
+./data*
+*.jpg
+*.jpeg
+*.rar
+*.zip
+*.7z
+*.tar
+*.pth

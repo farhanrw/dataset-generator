@@ -1,0 +1,5 @@
+MakeNamedMaterial "custommaterial" "string type" "uber"
+
+"rgb Kd" [0.804 0.613 0.416]
+"rgb Ks" [0.877 0.036 0.541] 
+"float roughness" [0.994]

@@ -1,0 +1,23 @@
+Include "film.pbrt"
+Include "camera.pbrt"
+
+Camera "perspective" "float fov" 70
+
+Sampler "halton" "integer pixelsamples" 14
+
+Integrator "path"
+
+WorldBegin
+
+Include "materials.pbrt"
+
+LightSource "distant"  "point from" [ -30 40  10 ]
+   "rgb L" [1 1 1]
+
+AttributeBegin
+  NamedMaterial "custommaterial"
+  Shape "sphere" "float radius" 1
+AttributeEnd
+
+
+WorldEnd
